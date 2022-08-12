@@ -27,7 +27,7 @@
 	padding-right: 6px;
 }
 #change_location button[type=button]{
-    background-color: #7aaee2;
+    background-color: #6A97DB;
     border:0;
     padding: 2px;
     margin: 2px;
@@ -88,7 +88,7 @@
 }
 .first-card{
     margin-top: 140px;
-    left: %;
+    
 }
 .km{
     border:0;
@@ -98,7 +98,7 @@
 .button{
     border:0;
     margin: 5px;
-    background-color: #5166eb;
+    background-color: #6A97DB;
     font-size: 14px;
     width: 50%;
     height: 30px;
@@ -119,7 +119,7 @@
     background-color: #e6e7e8;
 }
 .footer{
-    height: 60px;
+    min-height: 40px;
     width: 100%;
     background-color: rgb(6, 14, 74);
     color:#fff;
@@ -147,7 +147,6 @@
 
 .join_us{
     position:absolute;
-    left:6px;
     color: #fff;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -155,5 +154,5 @@
 .join_us_icon{
     float: left;
     position:relative;
-    left:63px;
+    left:75px;
 }
