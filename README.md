@@ -17,3 +17,10 @@ or switch to exist branch
 ```
 git checkout exist_branch_name
 ```
+
+## Machine 
+beau
+
+```
+python -m pip install beautiful-soup
+```

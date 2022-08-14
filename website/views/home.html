@@ -1,0 +1,41 @@
+{% extends "index.html" %} {% block title %}Home{% endblock %}
+
+{% block nav%}
+<li class="nav-item">
+    <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="/products">Products</a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="/about-us">About Us</a>
+  </li>
+{% endblock %}
+
+{% block content %}
+<h1>This is the homepage</h1>
+
+<button type="button" class="btn btn-primary">Submit</button>
+
+<div class="advertises_container">
+    <div class="advertise-card second-card">
+        <p></p>
+    </div>
+    <div class="advertise-card third-card">
+        <p></p>
+    </div>
+    <div class="advertise-card first-card">
+        <p></p>
+    </div>
+</div>
+<div class="special">
+    
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+
+</script>
+{% endblock %}

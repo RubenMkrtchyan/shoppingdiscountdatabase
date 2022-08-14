@@ -1,0 +1,112 @@
+{
+    "products" : [
+        {
+            "id": "001",
+            "title": "Connoisseur Classic Vanilla Ice",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/6/1/5615272-th.jpg",
+            "originalPrice" : 12.0,
+            "discount": 6.0,
+            "description": "0.6 per 100ml",
+            "store": "Coles"
+        },
+        {
+            "id": "002",
+            "title": "Nestle KitKat Milk Chocolate Bar 45g on special",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/3/6/136512-th.jpg",
+            "originalPrice" : 2.0,
+            "discount": 1.0,
+            "description": "$2.22 per 100G",
+            "store": "Coles"
+        },
+        {
+            "id": "003",
+            "title": "Kettle Sea Salt Potato Chips 165g on special",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/1/5/8156535-th.jpg",
+            "originalPrice" : 5.5,
+            "discount": 2.75,
+            "description": "$1.67 per 100G",
+            "store": "Coles"
+        },
+        {
+            "id": "004",
+            "title": "OMO Active Clean Top & Front Loader Laundry Liquid Detergent 2L on special",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/3/2731007-th.jpg",
+            "originalPrice" : 24.0,
+            "discount": 12.0,
+            "description": "6 per 1l",
+            "store": "Coles"
+        },
+        {
+            "id": "005",
+            "title": "Kellogg's Nutri-Grain Protein Breakfast Cereal 290g on special half price",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/4/9/8491755-th.jpg",
+            "originalPrice" : 6.7,
+            "discount": 3.35,
+            "description": "$1.16 per 100G",
+            "store": "Coles"
+        },
+        {
+            "id": "006",
+            "title": "Microfibre Cloths 3 pack",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/1/5/5153520-th.jpg",
+            "originalPrice" : 3.0,
+            "discount": 3.0,
+            "description": "$1 per 1Ea",
+            "store": "Coles"
+        },
+        {
+            "id": "007",
+            "title": "Oblong Sealed Can 1L  while stocks last product",
+            "url" : "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/1/5/5153520-th.jpg",
+            "originalPrice" : 4.0,
+            "discount": 4.0,
+            "description": "$4.00 per 1Ea",
+            "store": "Coles"
+        },
+        {
+            "id": "008",
+            "title": "Connoisseur Ice Cream Classic Vanilla 1l Tub, 1 Litre",
+            "url" : "https://cdn.metcash.media/image/upload/w_1500,h_1500,c_pad,b_auto/igashop/images/111194.jpeg",
+            "originalPrice" : 12.0,
+            "discount": 12.0,
+            "description": "$12/L",
+            "store": "IGA"
+        },
+        {
+            "id": "009",
+            "title": "Nestlé Milk Bar Whirl, 45 Gram",
+            "url" : "https://cdn.metcash.media/image/upload/w_1500,h_1500,c_pad,b_auto/igashop/images/809718.jpg",
+            "originalPrice" : 2.0,
+            "discount": 2.0,
+            "description": "$4.44/100g",
+            "store": "IGA"
+        },
+        {
+            "id": "010",
+            "title": "Kellogg's Nutri-Grain Protein Breakfast Cereal, 290 Gram",
+            "url" : "https://cdn.metcash.media/image/upload/w_1500,h_1500,c_pad,b_auto/igashop/images/99389.jpg",
+            "originalPrice" : 6.7,
+            "discount": 6.7,
+            "description": "$2.31/100g",
+            "store": "IGA"
+        },
+        {
+            "id": "011",
+            "title": "Omo Active Clean Laundry Liquid Detergent Front & Top Loader, 2 Litre",
+            "url" : "https://cdn.metcash.media/image/upload/w_1500,h_1500,c_pad,b_auto/igashop/images/624794.jpg",
+            "originalPrice" : 14.5,
+            "discount": 14.5,
+            "description": "$14.5/L",
+            "store": "IGA"
+        },
+        {
+            "id": "012",
+            "title": "Astra Cloths Microfibre, 3 Each",
+            "url" : "https://cdn.metcash.media/image/upload/w_1500,h_1500,c_pad,b_auto/igashop/images/369894.jpg",
+            "originalPrice" : 4.0,
+            "discount": 4.0,
+            "description": "$1.33 each",
+            "store": "IGA"
+        }
+    ]
+}
