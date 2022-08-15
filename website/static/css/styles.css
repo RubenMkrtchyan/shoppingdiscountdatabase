@@ -12,6 +12,9 @@ footer{
     padding: 15px;
 }
 
+.footer > .container{
+    max-width: 80% !important;
+}
 
 
 /* responsive problem :  576 -> 767 */

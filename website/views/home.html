@@ -1,5 +1,10 @@
 {% extends "index.html" %} {% block title %}Home{% endblock %}
 
+{% block style %}
+<link rel="stylesheet" href="../static/css/bootstrap-icons/bootstrap-icons.css">
+<link rel="stylesheet" href="../static/main.css">
+{% endblock %}
+
 {% block nav%}
 <li class="nav-item">
     <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
@@ -13,23 +18,114 @@
 {% endblock %}
 
 {% block content %}
-<h1>This is the homepage</h1>
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero">
+  <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in" style="padding: 50px 100px !important;">
+          <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+              <h2>Welcome to <span>Out Discount shop</span></h2>
+              <p>We will help you to save 10.</p>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                  <a href="#about" class="btn-get-started">Get Started</a>
+                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                      class="glightbox btn-watch-video d-flex align-items-center"><i
+                          class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+              <img src="../static/images/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out"
+                  data-aos-delay="100">
+          </div>
+      </div>
+  </div>
 
-<button type="button" class="btn btn-primary">Submit</button>
+  <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+          <div class="row gy-4 mt-5" style="padding: 0px 50px;">
 
-<div class="advertises_container">
-    <div class="advertise-card second-card">
-        <p></p>
-    </div>
-    <div class="advertise-card third-card">
-        <p></p>
-    </div>
-    <div class="advertise-card first-card">
-        <p></p>
-    </div>
-</div>
+              <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                  <div class="icon-box">
+                      <div class="icon"><i class="bi bi-easel"></i></div>
+                      <h4 class="title"><a href="" class="stretched-link">Buy?</a></h4>
+                  </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                      <div class="icon"><i class="bi bi-gem"></i></div>
+                      <h4 class="title"><a href="" class="stretched-link">Not use our products?</a></h4>
+                  </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                      <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                      <h4 class="title"><a href="" class="stretched-link">Fuck off</a></h4>
+                  </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                      <div class="icon"><i class="bi bi-command"></i></div>
+                      <h4 class="title"><a href="" class="stretched-link">Get out</a></h4>
+                  </div>
+              </div>
+              <!--End Icon Box -->
+
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<!-- End Hero Section -->
 <div class="special">
-    
+  <div class="special-img left w-6">
+      <img class="left" src="../static/images/we-do.png" alt="What we do">
+  </div>
+  <div class="special-content right w-4 text-align-right">
+      <p>What we do</p>
+      <h3>Saving your money in just few step</h3>
+      <small>We have some detail to write here</small>
+  </div>
+</div>
+
+<div class="special">
+  <div class="special-content left w-4 text-align-left">
+      <p>Your benefit</p>
+      <h3>Saving your money in just few step</h3>
+      <small>We have some detail to write here</small>
+  </div>
+  <div class="special-img right w-6">
+      <img class="right"  src="../static/images/your-benefit.png" alt="Your benefits">
+  </div>
+</div>
+
+<div class="special">
+  <div class="special-img left w-6">
+      <img class="left"  src="../static/images/help-you.png" alt="How can we help you">
+  </div>
+  <div class="special-content right w-4 text-align-right">
+      <p>How can we help you</p>
+      <h3>Saving your money in just few step</h3>
+      <small>We have some detail to write here</small>
+  </div>
+</div>
+
+<div class="special" style="margin-bottom: 200px;">
+  <div class="special-content left w-4 text-align-left">
+      <p>Do we charge you?</p>
+      <h3>Saving your money in just few step</h3>
+      <small>We have some detail to write here</small>
+  </div>
+  <div class="special-img right w-6">
+      <img class="right"  src="../static/images/free.png" alt="Free">
+  </div>
 </div>
 
 {% endblock %}
